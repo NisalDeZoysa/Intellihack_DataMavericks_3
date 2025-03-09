@@ -1,0 +1,22 @@
+[
+  {
+      "question": "How does DualPipe optimize pipeline parallelism compared to 1F1B and ZB1P?",
+      "reference_answer": "DualPipe reduces pipeline bubbles to $$(PP/2-1)(F\\&B + B - 3W)$$ using bidirectional parallelism, while 1F1B and ZB1P have bubbles of $$(PP-1)(F+B)$$ and $$(PP-1)(F+B-2W)$$ respectively. It uses 2× parameter memory and PP+1 activation memory, enabling full computation-communication overlap for forward/backward phases."
+  },
+  {
+      "question": "What are the two expert load-balancing strategies in EPLB?",
+      "reference_answer": "EPLB employs: 1) **Hierarchical Load Balancing** (groups experts by nodes to minimize inter-node traffic, used when nodes divide expert groups evenly), and 2) **Global Load Balancing** (replicates experts across all GPUs regardless of groups, typically for decoding stages with larger EP sizes)."
+  },
+  {
+      "question": "What architectural features make 3FS suitable for AI workloads?",
+      "reference_answer": "3FS combines disaggregated RDMA/SSD storage with CRAQ-based strong consistency. It provides standard file interfaces via FoundationDB-managed metadata, supports dataloaders/checkpointing/KVCache, and delivers 6.6 TiB/s aggregate read throughput in production clusters."
+  },
+  {
+      "question": "How does 3FS perform in KVCache optimization for LLM inference?",
+      "reference_answer": "3FS achieves 40 GiB/s peak KVCache read throughput with efficient garbage collection (high IOPS removal operations). It serves as a cost-effective DRAM alternative, handling 6.6 TiB/s read throughput across 500+ client nodes in production."
+  },
+  {
+      "question": "What GraySort benchmark results highlight 3FS's capabilities?",
+      "reference_answer": "3FS sorted 110.5 TiB of data in 30m14s using a two-phase shuffle-and-sort approach, achieving 3.66 TiB/min throughput across 25 storage/50 compute nodes. This demonstrates its large-scale data processing efficiency for AI workloads."
+  }
+]
