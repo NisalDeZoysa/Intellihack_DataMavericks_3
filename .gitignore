@@ -4,3 +4,4 @@ data.json
 *.env
 history_db
 pdf_db
+*.tmp
