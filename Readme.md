@@ -76,15 +76,15 @@ Open VS Code for easy use
 
 ---
 
-### 5️⃣ Run the Application 🏃‍♂️
+### 5️⃣ Run the Application on Windows Machine🏃‍♂️
 
 1. Open `RAG_Notebook.ipynb` from VS code.
 2. Then Select the environment we created
 3. Follow the instructions in the notebook 
 4. Enjoy the application
 
-gguf is available in hugginface - dinukpathiraja/Qwen-2.5-3B-GRPO
-Model name is - DataMavericks_Qwen_2.5_3B_GRPO.gguf
+### gguf is available in hugginface - dinukpathiraja/Qwen-2.5-3B-GRPO
+### Model name is - DataMavericks_Qwen_2.5_3B_GRPO.gguf
 ---
 
 ## 🎉 Usage Instructions
