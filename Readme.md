@@ -1,4 +1,3 @@
-
 # 🚀 RAG Application Instructions
 
 Welcome to the **RAG (Retrieval-Augmented Generation) Application**! This guide will help you set up and run the application on your system. Follow the steps below to get started. 🛠️
@@ -109,6 +108,14 @@ Open VS Code for easy use
 2. **CUDA not detected**: Verify that your GPU drivers are installed and compatible with CUDA.
 
 For further assistance, feel free to reach out! ✉️
+
+---
+
+# 🚀 Finetuning Qwen2.5 3B
+
+Open a kaggle notebook and then upload Finetuning_Qwen_Notebook.ipynb and then execute the cells and download the gguf saved in kaggle working directory
+
+Welcome to the **RAG (Retrieval-Augmented Generation) Application**! This guide will help you set up and run the application on your system. Follow the steps below to get started. 🛠️
 
 ---
 
