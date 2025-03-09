@@ -115,7 +115,7 @@ For further assistance, feel free to reach out! ✉️
 
 # 🚀 Finetuning Qwen2.5 3B
 
-Open a kaggle notebook and then upload Finetuning_Qwen_Notebook.ipynb and then execute the cells and download the gguf saved in kaggle working directory🛠️
+Open a kaggle notebook and then upload Finetuning_Qwen_Notebook.ipynb and change the dataset path as your json data path then execute the cells and download the gguf saved in kaggle working directory🛠️
 
 ---
 
