@@ -1,4 +1,4 @@
-```markdown
+
 # 🚀 RAG Application Instructions
 
 Welcome to the **RAG (Retrieval-Augmented Generation) Application**! This guide will help you set up and run the application on your system. Follow the steps below to get started. 🛠️
@@ -113,5 +113,5 @@ For further assistance, feel free to reach out! ✉️
 ---
 
 Enjoy using your RAG application! 🎉✨ 
-```
+
 
