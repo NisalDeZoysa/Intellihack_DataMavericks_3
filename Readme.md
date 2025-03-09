@@ -72,21 +72,17 @@ Welcome to the **RAG (Retrieval-Augmented Generation) Application**! This guide 
 
 ---
 
-### 4️⃣ Install Dependencies 📦
-Run the following command to install all required libraries:
-```
-pip install -r requirements.txt
-```
+### 4️⃣ Open IDE 📦
+Open VS Code for easy use
 
 ---
 
 ### 5️⃣ Run the Application 🏃‍♂️
-1. Launch Jupyter Notebook:
-   ```
-   jupyter notebook
-   ```
-2. Open `RAG_Notebook.ipynb` from your file browser in Jupyter.
-3. Follow the instructions in the notebook to upload a document and ask questions.
+
+1. Open `RAG_Notebook.ipynb` from VS code.
+2. Then Select the environment we created
+3. Follow the instructions in the notebook 
+4. Enjoy the application
 
 ---
 
@@ -99,6 +95,10 @@ pip install -r requirements.txt
 ### Ask Questions ❓
 - Type your question in the provided input box.
 - The application will retrieve relevant context from your document and generate an answer.
+
+### Reminder
+- If the GPU is not utilized the model runs on CPU in that case the response will take around 1.5 minutes
+- So please wait
 
 ---
 
